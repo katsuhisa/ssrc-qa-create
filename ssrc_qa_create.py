@@ -69,7 +69,7 @@ def app():
         data = load_data(uploaded_file)
     else:
         dir_path = os.path.dirname(__file__)
-        default_file_path = '../SSRC_qa.csv'
+        default_file_path = 'SSRC_qa.csv'
         data = load_data(os.path.join(dir_path, default_file_path))
 
     st.title('設問フォーマット出力システム')
